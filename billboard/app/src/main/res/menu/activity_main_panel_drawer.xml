@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <item android:title="Main Contents"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_ecommerce"
+                android:icon="@drawable/ic_local_grocery_store_black_24dp"
+                android:title="E-Commerce" />
+            <item
+                android:id="@+id/nav_schoolmarket"
+                android:icon="@drawable/ic_action_academics"
+                android:title="University Marketing" />
+            <item
+                android:id="@+id/nav_transport"
+                android:icon="@drawable/ic_motorcycle_black_24dp"
+                android:title="Transport" />
+
+        </menu>
+
+    </item>
+    <item android:title="My Carts">
+        <menu>
+            <item android:id="@+id/nav_carts"
+                android:icon="@drawable/ic_action_name_cart_nav"
+                android:title="Carts"/>
+        </menu>
+
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_About"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_follow"
+                android:icon="@drawable/ic_action_follow"
+                android:title="Follow Us" />
+        </menu>
+    </item>
+
+    <item android:title="Account and Privacy">
+        <menu>
+            <item
+                android:id="@+id/nav_Logout"
+                android:icon="@drawable/ic_action_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+    <item android:title="Powered by GLAC International"/>
+
+</menu>

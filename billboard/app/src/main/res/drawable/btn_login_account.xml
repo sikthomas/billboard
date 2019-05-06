@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:thickness="10dp"
+    android:shape="rectangle"
+    android:visible="true"
+    >
+
+    <gradient
+        android:endColor="@color/editTextColor"
+        android:startColor="@color/colorAccent"
+        android:centerColor="@color/colorPrimary"/>
+
+
+</shape>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.glac.account.ProfileChange"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="8dp"
+        android:text="Tap bellow to choose image from gallery"
+        android:textColor="@color/colorPrimary" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="4dp"
+        android:id="@+id/imageToChange"
+        app:srcCompat="@color/lightGrray" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="submit"
+        android:id="@+id/btnSubmitToChange"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_marginBottom="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powered by GLAC International"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16dp" />
+
+
+</LinearLayout>

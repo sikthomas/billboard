@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "178969066544",
+    "firebase_url": "https://glac-app.firebaseio.com",
+    "project_id": "glac-app",
+    "storage_bucket": "glac-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178969066544:android:86ae227d31c7da0b",
+        "android_client_info": {
+          "package_name": "com.glac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178969066544-d28q59q8u77s03nd30ljq24ok0rifoin.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.glac",
+            "certificate_hash": "d9b3ac6a1c34a7636b3ebb1da2f38fc1c3ce5366"
+          }
+        },
+        {
+          "client_id": "178969066544-38jlp5mokf3vk9brl93kvrs1pngjjbgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvFrpWvmj0IT94Om7-y5m4JxTPZS2bPMs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178969066544-38jlp5mokf3vk9brl93kvrs1pngjjbgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

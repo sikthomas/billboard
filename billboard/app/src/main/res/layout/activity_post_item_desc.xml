@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.glac.ecommerce.PostItemDesc"
+    android:fitsSystemWindows="true">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tvTitleDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Title"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@color/lightGrray" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item Description:"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/tvDescDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="8dp"
+                android:text="Item Description"/>
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_width="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Location of the item: " />
+
+                    <TextView
+                        android:id="@+id/tvCountyDesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text="TextView" />
+
+                    <TextView
+                        android:id="@+id/tvLocationDesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text="TextView"/>
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Contact the owner via:"
+                        android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/floating_call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:backgroundTint="@color/bg_screen3"
+                    app:srcCompat="@android:drawable/ic_menu_call" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/flaoting_whatsapp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    app:backgroundTint="@color/bg_login"
+                    app:srcCompat="@drawable/iconfinder_whatsapp" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/floating_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:backgroundTint="@color/red"
+                    app:srcCompat="@drawable/ic_action_email_her" />
+            </LinearLayout>
+
+            <Button
+                        android:id="@+id/btnPhoneDesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="4dp"
+                        android:text="Call"
+                        android:padding="8dp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:background="@color/green_complete"
+                        />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvEmailDesc"
+                android:textColor="@color/blue"
+                android:text="Email"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:id="@+id/btnBuyDesc"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Buy"
+                android:textAllCaps="false"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/btnAddCarDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="Add to Cart"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

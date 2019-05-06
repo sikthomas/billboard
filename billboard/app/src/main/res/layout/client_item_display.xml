@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:background="@color/Beige"
+    android:id="@+id/linearRequest">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:id="@+id/tv_client_fullname"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plate"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:id="@+id/tv_client_plate"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Availability"
+        android:id="@+id/tv_client_availability"
+        android:textColor="@color/Green"
+        android:textStyle="bold|italic"
+        android:layout_gravity="end"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="2dp"
+        />
+
+</LinearLayout>

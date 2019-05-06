@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinneritems">
+        <item>Select County</item>
+        <item>Mombasa</item>
+        <item>Kwale</item>
+        <item>Kilifi</item>
+        <item>Tana River</item>
+        <item>Lamu</item>
+        <item>Taita Taveta</item>
+        <item>Garisa</item>
+        <item>Wajir</item>
+        <item>Mandera</item>
+        <item>Marsabit</item>
+        <item>Isiolo</item>
+        <item>Meru</item>
+        <item>Thraka Nithi</item>
+        <item>Embu</item>
+        <item>Kitui</item>
+        <item>Machakos</item>
+        <item>Makueni</item>
+        <item>Nyandarua</item>
+        <item>Nyeri</item>
+        <item>Kirinyaga</item>
+        <item>Muranga</item>
+        <item>Kiambu</item>
+        <item>Turkana</item>
+        <item>West Pokot</item>
+        <item>Samburu</item>
+        <item>Trans Nzoia</item>
+        <item>Uasin Gishu</item>
+        <item>Elgeyo/Marakwet</item>
+        <item>Nandi</item>
+        <item>Baringo</item>
+        <item>Laikipia</item>
+        <item>Nakuru</item>
+        <item>Narok</item>
+        <item>Kajiado</item>
+        <item>Kericho</item>
+        <item>Bomet</item>
+        <item>Kakamega</item>
+        <item>Vihiga</item>
+        <item>Bungoma</item>
+        <item>Busia</item>
+        <item>Siaya</item>
+        <item>Kisumu</item>
+        <item>Homa Bay</item>
+        <item>Migori</item>
+        <item>Kisii</item>
+        <item>Nyamira</item>
+        <item>Nairobi City</item>
+    </string-array>
+    <string-array name="course">
+        <item>Select Course</item>
+        <item>Actuarial Science</item>
+        <item>Computer Science</item>
+        <item>Biochemistry</item>
+        <item>Education Science</item>
+        <item>IT</item>
+        <item>Microbiology</item>
+        <item>Education Arts</item>
+        <item>Tourism</item>
+        <item>Environmental Science</item>
+        <item>....</item>
+    </string-array>
+    <string-array name="yos">
+        <item>Select YOS</item>
+        <item>Year 1</item>
+        <item>Year 2</item>
+        <item>Year 3</item>
+        <item>Year 4</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="Universities">
+        <item>Select University</item>
+        <item>University of Kabianga</item>
+        <item>University of Nairobi</item>
+        <item>Moi University</item>
+        <item>Pwani University</item>
+        <item>Meru University</item>
+        <item>Kenyatta University</item>
+        <item>JKUAT</item>
+        <item>Egerton University</item>
+        <item>Rongo University</item>
+        <item>Chuka University</item>
+        <item>Masinde Muliro University</item>
+        <item>Technical University of Kenya</item>
+        <item>Technical University of Mombasa</item>
+        <item>Multimedia University</item>
+        <item>Laikipia University</item>
+        <item>Maasai Mara University</item>
+        <item>Kisii University</item>
+        <item>Maseno University</item>
+        <item>Riara University</item>
+        <item>USIU</item>
+        <item>Strathmore University</item>
+        <item>Mount Kenya University</item>
+        <item>Kibabii University</item>
+        <item>University of Eldoret</item>
+        <item>Daystar University</item>
+        <item>South Eastern University</item>
+        <item>Embu University</item>
+        <item>Kabarak University</item>
+        <item>Dedan Kimathi University</item>
+        <item>Karatina University</item>
+        <item>Catholic University</item>
+        <item>Zetech University</item>
+        <item>KCA University</item>
+        <item>Kenya Utalii College</item>
+        <item>Kenya Methodist University</item>
+        <item>Machakos University</item>
+        <item>African Nazarene University</item>
+        <item>University of Eastern Africa Baraton</item>
+        <item>Kirinyaga University</item>
+        <item>Kenya School of Law</item>
+        <item>Jaramogi Oginga Odinga University</item>
+        <item>Tangaza University</item>
+        <item>Kisumu Polytechnic</item>
+    </string-array>
+    <string-array name="Categories">
+        <item>Select Category</item>
+        <item>Phones and Tablets</item>
+        <item>Computing</item>
+        <item>Electronics</item>
+        <item>Men Fashion</item>
+        <item>Women Fashion</item>
+        <item>Health and Beauty</item>
+        <item>Home and Office</item>
+        <item>Sporting</item>
+        <item>Grocery</item>
+    </string-array>
+    <string-array name="Vehicle">
+        <item>Select Category</item>
+        <item>Car</item>
+        <item>Motor Bike</item>
+        <item>Tuk Tuk</item>
+    </string-array>
+</resources>

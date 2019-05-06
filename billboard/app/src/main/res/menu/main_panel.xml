@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_myclass"
+        android:icon="@drawable/ic_action_search"
+        android:orderInCategory="10"
+        android:title="My Class"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_mywalet"
+        android:icon="@drawable/ic_action_search"
+        android:orderInCategory="10"
+        android:title="My Walet"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_scoolediting"
+        android:icon="@drawable/ic_action_search"
+        android:orderInCategory="10"
+        android:title="University Acount"
+        app:showAsAction="never"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:id="@+id/action_myaccount"
+        android:orderInCategory="10"
+        android:title="My Account"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/acction_share"
+        android:orderInCategory="10"
+        android:title="Share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="10"
+        android:title="Help"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_rate_us"
+        android:orderInCategory="10"
+        android:title="Rate Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="10"
+        android:title="Logout"
+        app:showAsAction="never" />
+    <item
+        android:title="Notification"
+        android:orderInCategory="100"
+        android:id="@+id/action_notification"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_notifications"/>
+</menu>
